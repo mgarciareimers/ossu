@@ -101,4 +101,4 @@ except:
 if url is None:
     print('An error occurred: It is not possible to get an url at selected position and count')
 
-print(re.findall('([A-Z].*)\.html', url)[0])
+print(re.findall('([A-Z].*)\.html', url)[0]) 
